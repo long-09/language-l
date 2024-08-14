@@ -1,0 +1,177 @@
+.container {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+    background-color: aliceblue;
+    color: black;
+    margin: 0px;
+    line-height: 1.42px;
+    display: block;
+}
+body menu{
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+#page {
+    max-width: 940px;
+    min-width: 720px;
+    margin: 10px auto 10px;
+    padding: 20px;
+}
+.container{
+    width: 970px;
+    padding: 25px 10px 25px 10px;
+    margin-left:auto;
+    margin-right: auto;
+}
+element.style{
+    z-index: 9999;
+    width: 100%;
+    top:0;
+    position: fixed;
+}
+body .menu{
+    width: 100%;
+    top:0;
+    position: fixed;
+    background-color: aliceblue;
+}
+.sub-menu>li>a:visited {
+    font-size: 13px;
+    font-weight: 600px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding: 14px 22px 14px 22px;
+    border: none;
+
+}
+
+.sub-menu>li>a:link {
+    font-size: 13px;
+    font-weight: 600px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding: 14px 22px 14px 22px;
+
+}
+
+.menu>li>a:hover {
+    color: green;
+    transition: 0.3s;
+    border-bottom: 6px solid orange;
+
+}
+
+.sub-menu {
+    position: absolute;
+    border: 1px solid white;
+    padding: 14px 22px 14px 22px;
+    transition: 0.3s;
+    visibility: hidden;
+    top: 50px;
+    transition: 0.3s;
+    background-color: antiquewhite;
+
+}
+
+.menu>li:hover .sub-menu {
+    visibility: visible;
+    top: 30px
+}
+
+.menu>li {
+    padding: 0 10px;
+    position: relative;
+}
+
+.menu>li>.sub-menu {
+    padding-top: 0px;
+    border-top: none;
+}
+
+.sub-menu li {
+    font-size: 14px;
+    margin: 0px;
+}
+
+.dangnhap {
+    background-color: rgb(221, 49, 49);
+}
+
+li {
+    color: black;
+    text-transform: uppercase;
+    display: inline;
+    margin-right: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black
+}
+
+a:hover {
+    color: green;
+
+}
+
+input[type="submit"] {
+    background-color: green;
+    color: aliceblue;
+    border: 1px solid green;
+    font-weight: bold;
+    border-radius: 30px !important;
+    margin-bottom: 0px;
+    height: 60px;
+    text-transform: uppercase;
+    width: 90% !important;
+    padding: 6px 12px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.4;
+    white-space: nowrap;
+}
+input[type="submit"]:hover {
+    background-color: rgb(118, 163, 118);
+    color: aliceblue;
+    border: 1px solid green;
+    font-weight: bold;
+    border-radius: 30px !important;
+    margin-bottom: 0px;
+    height: 60px;
+    text-transform: uppercase;
+    width: 90% !important;
+    padding: 6px 12px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.4;
+    white-space: nowrap;
+}
+
+table {
+    border-spacing: 30px;
+}
+
+th,
+td {
+    padding: 5px 10px 5px 10px;
+}
+
+fieldset {
+    width: 310px;
+    margin-top: 10px;
+    border: 1px solid rgb(107, 102, 102);
+    background-color: rgb(168, 163, 157);
+    line-height: 1.6px;
+}
+.gioithieu ul li{
+    display: inline;
+}
